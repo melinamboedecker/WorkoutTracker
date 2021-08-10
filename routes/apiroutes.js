@@ -57,8 +57,6 @@ router.get("/api/workouts", (req, res) => {
 
 router.get("/api/workouts/range", (req, res) => {
     db.Workout
-        // .find({})
-        // .sort({ day: -1 })
         .aggregate([
             {
                 $addFields: {
@@ -66,6 +64,9 @@ router.get("/api/workouts/range", (req, res) => {
                 }
             }
         ])
+        .sort({ day: -1 })
+        .limit(7)
+        .sort({ day: 1 })
         .then(dbWorkout => {
             res.json(dbWorkout);
         })
