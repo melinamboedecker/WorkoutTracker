@@ -37,7 +37,15 @@ router.put("/api/workouts/:id", ({ body, params }, res) => {
 });
 
 router.get("/api/workouts", (req, res) => {
-    db.Workout.find({})
+    db.Workout
+        // .find({})
+        .aggregate([
+            {
+                $addFields: {
+                    totalDuration: { $sum: "$exercises.duration" },
+                }
+            }
+        ])
         .sort({ day: 1 })
         .then(dbWorkout => {
             res.json(dbWorkout);
@@ -48,8 +56,16 @@ router.get("/api/workouts", (req, res) => {
 });
 
 router.get("/api/workouts/range", (req, res) => {
-    db.Workout.find({})
+    db.Workout
+        // .find({})
         // .sort({ day: -1 })
+        .aggregate([
+            {
+                $addFields: {
+                    totalDuration: { $sum: "$exercises.duration" },
+                }
+            }
+        ])
         .then(dbWorkout => {
             res.json(dbWorkout);
         })
