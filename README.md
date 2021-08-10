@@ -21,7 +21,7 @@ Or to run locally:
 
  
 ## Usage: 
-The homepage will display your last workout.  To create a new workout click on "New Workout" where you will be prompted to choose the exercise type and then enter relevent information for that exercise.   When all information for that exercise is entered, click "Add Exercise" to store the information for that exercise.  From there you can enter information for another exercise for that workout, or click "Fitness Tracker" in the navbar to return to the homepage.  To add another exercise to your current workout click "Continue Workout" or to start a new workout click "New Workout".  If you click the dashboard in the navbar you will see a graph with the previous seven workouts including the workout duration and the total pounds used per workout. 
+The homepage will display details of your last workout.  To create a new workout click on "New Workout" where you will be prompted to choose the exercise type and then enter relevent information for that exercise.   When all information for that exercise is entered, click "Add Exercise" to store the information for that exercise.  From there you can enter information for another exercise for that workout, or click "Fitness Tracker" in the navbar to return to the homepage.  To add another exercise to your current workout click "Continue Workout" or to start a new workout click "New Workout".  If you click the dashboard in the navbar you will see a graph with the previous seven workouts including the workout duration and the total pounds used per workout. 
 
 ![Screenshot](public/assets/)
 
