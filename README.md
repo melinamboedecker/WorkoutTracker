@@ -1,7 +1,7 @@
 # WorkoutTracker
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 ## Description: 
-This is an application that you can use to keep track of the workouts you have completed.  You can enter multiple exercises for each workout, and the app will store each exercise type (cardio or resistance), the duration of the exercise, the distance, the weight, along with number of sets and reps.  This application uses Node.js, an Express server, and Mongoose. You can install and run on a local server, or use the deployed version.     
+This is an application that you can use to keep track of the workouts you have completed.  You can enter multiple exercises for each workout, and the app will store each exercise type (cardio or resistance), the duration of the exercise, the distance, the weight, along with number of sets and reps as applicable.  This application uses Node.js, an Express server, and Mongoose. You can install and run on a local server, or use the deployed version.     
 ## Table of Contents: 
 * [Installation](#installation)
 * [Usage](#usage) 
