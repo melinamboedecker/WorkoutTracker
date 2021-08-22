@@ -9,7 +9,7 @@ This is an application that you can use to keep track of the workouts you have c
 * [Contributing](#contributing) 
 * [Questions](#questions) 
 ## Installation: 
-[Click here for deployed app](https://technologyblog.herokuapp.com/)   
+[Click here for deployed app](https://workoutlogbook.herokuapp.com/)   
    
 Or to run locally:
 
